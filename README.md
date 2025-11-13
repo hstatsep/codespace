@@ -7,6 +7,7 @@ This repository is a **ready-to-use GitHub Codespace** setup for HTML, CSS, Java
 ## **Quick Start**
 
 Go to https://github.com/hstatsep/codespace/codespaces
+   - Press the green button: **Create codespace on Main**
    - Wait a few minutes while the container builds.
    - It will install:
      - Node.js & npm
