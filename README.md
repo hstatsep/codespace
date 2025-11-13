@@ -1,19 +1,14 @@
-# Codespace Base (My own implementation)
+# HSTAT SEP Codespace
 
-This repository is a **ready-to-use GitHub Codespace** setup fors HTML, CSS, JavaScript, and Java. Everything you need is pre-installed. No local setup required, though you're free to do so.
+This repository is a **ready-to-use GitHub Codespace** setup for HTML, CSS, JavaScript, and Java. Everything you need is pre-installed.
 
 ---
 
 ## **Quick Start**
 
-1. **Fork this repository**  
-   - Click the **Fork** button on GitHub.
-
-2. **Create a Codespace**  
-   - Open your forked repo on GitHub.
-   - Go to **https://github.com/codespaces/new?repo=<YOUR_USERNAME>/codespace-base**. (Remove the <>)
-   - Your setting should be as such: ![Settings](/src/settings_image.png)
-   - Wait a few minutes while the container builds. It will install:
+Go to https://github.com/hstatsep/codespace/codespaces
+   - Wait a few minutes while the container builds.
+   - It will install:
      - Node.js & npm
      - Java 17
      - Git
