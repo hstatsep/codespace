@@ -63,6 +63,11 @@
     }
   },
 
+  "remoteEnv": {
+    "HOME": "/workspaces/codespace"
+  },
+
   // Run after Codespace finishes building
-  "postCreateCommand": "echo '✅ Environment ready! Use `git clone <repo>` to start a project, and `http-server` to preview HTML on port 8080.'"
+  "postCreateCommand": "cp /root/.bashrc /workspaces/codespace/.bashrc 2>/dev/null || true"
+
 }
