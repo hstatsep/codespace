@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except our config
+!.devcontainer/
+!.vscode/
+!.gitignore
