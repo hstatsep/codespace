@@ -40,9 +40,13 @@
         "vscjava.vscode-maven",           // Maven integration (optional)
 
         // --- Utilities ---
-        "ms-vscode.vscode-typescript-next", // Updated JS/TS tooling
-        "formulahendry.code-runner",        // Run snippets easily
-        "github.vscode-pull-request-github" // GitHub integration
+        "ms-vscode.vscode-typescript-next",  // Updated JS/TS tooling
+        "formulahendry.code-runner",         // Run snippets easily
+        "github.vscode-pull-request-github", // GitHub integration
+
+        // --- Uninstall during container setup ---
+        "-github.copilot-chat", 
+        "-github.copilot"
       ],
       "settings": {
         // Configure Live Server to use port 8080
