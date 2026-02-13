@@ -17,7 +17,7 @@ alias addfolder="bash /workspaces/codespace/.devcontainer/setup_folder.sh"
 git() {
   local repo_root
   repo_root=$(command git rev-parse --show-toplevel 2>/dev/null)
-  if [ "$repo_root" = "/workspaces/codespace" ]; then
+  if [ "$repo_root" = "/workspaces/codespace" ] && [ "$1" != "clone" ]; then
     echo "Error: You must be inside a repository to use git."
     return 1
   fi
