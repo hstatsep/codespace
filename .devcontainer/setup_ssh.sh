@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter your GitHub personal access token: " TOKEN
+read -p "Paste your GitHub personal access token: " TOKEN
 
 # Delete any existing keys with this machine's hostname
 echo "Removing old SSH keys from GitHub..."
