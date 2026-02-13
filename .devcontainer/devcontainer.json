@@ -76,6 +76,6 @@
   },
 
   // Run after Codespace finishes building
-  "postCreateCommand": "cp /root/.bashrc /workspaces/codespace/.bashrc 2>/dev/null || true"
+  "postCreateCommand": "cp /home/vscode/.bashrc /workspaces/codespace/.bashrc 2>/dev/null || true && cp /home/vscode/.gitconfig /workspaces/codespace/.gitconfig 2>/dev/null || true"
 
 }
