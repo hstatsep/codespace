@@ -27,7 +27,14 @@
 
         // --- Uninstall during container setup ---
         "-github.copilot-chat", 
-        "-github.copilot"
+        "-github.copilot",
+        
+        // --- Duplicate from settings.json, but runs after build
+        "files.exclude": {
+          ".devcontainer": true,
+          ".vscode": true,
+          "**/.*": true
+        }
       ],
       "settings": {
         
