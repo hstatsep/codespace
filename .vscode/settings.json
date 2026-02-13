@@ -1,9 +1,10 @@
 {
   "files.exclude": {
     ".devcontainer": true,
-    ".vscode": true
+    ".vscode": true,
+    "**/.*": true
   },
   "chat.disableAIFeatures": true,
   "github.copilot.editor.enableAutoCompletions": false,
-  "github.copilot.enable": { "*": false }
+  "github.copilot.enable": { "*": false },
 }
