@@ -12,3 +12,13 @@ export PS1="[\[\e[37;44m\]\t\[\e[0m\]] \[\e[92m\]\w\[\033[31m\]\$(parse_git_bran
 TZ='America/New_York'; export TZ
 
 alias addtoken="bash /workspaces/codespace/.devcontainer/setup_ssh.sh"
+
+git() {
+  local repo_root
+  repo_root=$(command git rev-parse --show-toplevel 2>/dev/null)
+  if [ "$repo_root" = "/workspaces/codespace" ]; then
+    echo "Error: You must be inside a repository to use git."
+    return 1
+  fi
+  command git "$@"
+}
