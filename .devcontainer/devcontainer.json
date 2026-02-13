@@ -3,25 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {
-    // Use Bash as the default terminal
-    "terminal.integrated.defaultProfile.linux": "bash",
-
-    // Editor quality-of-life settings
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
-
-    // Prettier (for HTML/CSS/JS)
-    "prettier.singleQuote": true,
-    "prettier.semi": false,
-    "prettier.tabWidth": 2,
-
-    // Java formatting and project handling
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/master/format-settings.xml"
-  },
   "forwardPorts": [8080],
   "remoteUser": "vscode",
 
@@ -49,6 +30,25 @@
         "-github.copilot"
       ],
       "settings": {
+        
+        // Use Bash as the default terminal
+        "terminal.integrated.defaultProfile.linux": "bash",
+    
+        // Editor quality-of-life settings
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+    
+        // Prettier (for HTML/CSS/JS)
+        "prettier.singleQuote": true,
+        "prettier.semi": false,
+        "prettier.tabWidth": 2,
+    
+        // Java formatting and project handling
+        "java.configuration.checkProjectSettingsExclusions": false,
+        "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/master/format-settings.xml",
+            
         // Configure Live Server to use port 8080
         "liveServer.settings.port": 8080,
 
