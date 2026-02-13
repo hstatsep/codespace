@@ -12,6 +12,7 @@ export PS1="[\[\e[37;44m\]\t\[\e[0m\]] \[\e[92m\]\w\[\033[31m\]\$(parse_git_bran
 TZ='America/New_York'; export TZ
 
 alias addtoken="bash /workspaces/codespace/.devcontainer/setup_ssh.sh"
+alias addfolder="bash /workspaces/codespace/.devcontainer/setup_folder.sh"
 
 git() {
   local repo_root
