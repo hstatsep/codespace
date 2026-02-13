@@ -10,3 +10,5 @@ function parse_git_branch {
 export PS1="[\[\e[37;44m\]\t\[\e[0m\]] \[\e[92m\]\w\[\033[31m\]\$(parse_git_branch)\[\033[00m\]\n$ "
 
 TZ='America/New_York'; export TZ
+
+alias addtoken="bash /workspaces/codespace/.devcontainer/setup_ssh.sh"
