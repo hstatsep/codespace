@@ -41,6 +41,7 @@
         
         // Use Bash as the default terminal
         "terminal.integrated.defaultProfile.linux": "bash",
+        "termina.integrated.cwd": "/workspaces/codespace",
     
         // Editor quality-of-life settings
         "editor.formatOnSave": true,
