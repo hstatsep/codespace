@@ -32,30 +32,44 @@
       ],
       "settings": {
 
-        "editor.wordWrap": "on",
-        "terminal.integrated.fontSize": 14,  // Larger terminal font
-        
         // Duplicated from settings.json, but runs after build
         "files.exclude": {
           ".devcontainer": true,
           ".vscode": true,
           "**/.*": true
         },
-        
+
+        // Hide clutter
+        "git.decorations.enabled": false,  // Hide git decorations in file explorer (less visual noise)
+        "scm.countBadge": "off",  // Hide git change count badge
+        "problems.decorations.enabled": false,  // Hide problem decorations (no squiggles in file list)
+
+        // Help learn syntax
+        "editor.folding": false,  // Disable code folding (forces students to see all code)
+        "editor.hover.enabled": false,  // Disable hover tooltips (CS50 disables to reduce distractions)
+        "editor.parameterHints.enabled": false,  // No parameter hints when typing functions
+        "editor.quickSuggestions": {  // Disable autocomplete suggestions
+            "other": "off",
+            "comments": "off",
+            "strings": "off"
+        },
+
         // Use Bash as the default terminal
         "terminal.integrated.defaultProfile.linux": "bash",
         "termina.integrated.cwd": "/workspaces/codespace",
     
         // Editor quality-of-life settings
+        "editor.wordWrap": "on",
+        "editor.tabSize": 4,
+        "terminal.integrated.fontSize": 14,  // Larger terminal font
         "editor.formatOnSave": true,
-        "editor.tabSize": 2,
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
-    
+        
         // Prettier (for HTML/CSS/JS)
         "prettier.singleQuote": true,
         "prettier.semi": false,
-        "prettier.tabWidth": 2,
+        "prettier.tabWidth": 4,
     
         // Java formatting and project handling
         "java.configuration.checkProjectSettingsExclusions": false,
