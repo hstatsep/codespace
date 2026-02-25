@@ -5,7 +5,7 @@ Welcome to your new IDE, which stands for
 * Development
 * Environment
 
-It is a place (**environment**) where all of your **development** tools such (i.e. text editor, terminal, and file tree) are all **integrated** into the same window.
+It is a place (**environment**) where all of your **development** tools (i.e. text editor, terminal, and file tree) are all **integrated** into the same window.
 
 The first time you see this, there are just a few more steps to do:
 
