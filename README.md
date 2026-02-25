@@ -20,3 +20,5 @@ The first time you see this, there are just a few more steps to do:
 
 3. In the terminal below, type  `addfolder`
     * When prompted, enter your grade.
+
+If you need to delete this codespace, go to [github.com/codespaces](https://github.com/codespaces)
