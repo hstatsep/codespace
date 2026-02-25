@@ -31,6 +31,9 @@
         
       ],
       "settings": {
+
+        "editor.wordWrap": "on",
+        "terminal.integrated.fontSize": 14,  // Larger terminal font
         
         // Duplicated from settings.json, but runs after build
         "files.exclude": {
