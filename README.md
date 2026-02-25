@@ -13,7 +13,7 @@ The first time you see this, there are just a few more steps to do:
     * The **note** can be anything!
     * The **expiration** doesn't matter either
     * Make sure you check <span style="color:red">**admin:public_key**</span>
-    * Press **Generate token** then **copy** it using the <img src="https://cdn-icons-png.flaticon.com/512/54/54725.png" width="15"> icon
+    * Press <span style="color:green">**Generate token**</span> then **copy** it using the <img src="https://cdn-icons-png.flaticon.com/512/54/54725.png" width="15"> icon
 
 2. In the terminal below, type `addtoken`
     * When prompted, paste in your token.
