@@ -21,4 +21,13 @@ The first time you see this, there are just a few more steps to do:
 3. In the terminal below, type  `addfolder`
     * When prompted, enter your grade.
 
-If you need to delete this codespace, go to [github.com/codespaces](https://github.com/codespaces)
+## ⚠️ IMPORTANT: Prevent Your Codespace from Auto-Deleting
+
+By default, GitHub deletes inactive codespaces after 30 days. Follow these steps to keep your work safe:
+
+1. Go to https://github.com/codespaces
+2. Find your `hstatsep/codespace` codespace in the list
+3. Click the **three dots (...)** menu on the right
+4. UNCHECK the option to **"Auto-delete codespace"** 
+
+Do this once when you first create your codespace.
