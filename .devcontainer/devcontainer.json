@@ -65,6 +65,7 @@
         "editor.formatOnSave": true,
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
+        "explorer.compactFolders": false, // always stack vertically
         
         // Prettier (for HTML/CSS/JS)
         "prettier.singleQuote": true,
