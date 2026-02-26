@@ -38,12 +38,7 @@
           ".vscode": true,
           "**/.*": true
         },
-
-        // Hide clutter
-        "git.decorations.enabled": false,  // Hide git decorations in file explorer (less visual noise)
-        "scm.countBadge": "off",  // Hide git change count badge
-        "problems.decorations.enabled": false,  // Hide problem decorations (no squiggles in file list)
-
+      
         // Help learn syntax
         "editor.folding": false,  // Disable code folding (forces students to see all code)
         "editor.hover.enabled": false,  // Disable hover tooltips (CS50 disables to reduce distractions)
@@ -61,11 +56,18 @@
         // Editor quality-of-life settings
         "editor.wordWrap": "on",
         "editor.tabSize": 4,
-        "terminal.integrated.fontSize": 14,  // Larger terminal font
         "editor.formatOnSave": true,
+        "terminal.integrated.fontSize": 14,  // Larger terminal font
+        "terminal.integrated.showExitAlert": false,  // Don't warn when terminal closes
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
         "explorer.compactFolders": false, // always stack vertically
+        "workbench.editor.enablePreview": false,  // Don't preview files, always open them fully
+        "workbench.iconTheme": "vs-minimal",  // Simpler, less cluttered icons
+        "workbench.statusBar.visible": false,  // Hide status bar (cleaner for beginners)
+        "git.decorations.enabled": false,  // Hide git decorations in file explorer (less visual noise)
+        "scm.countBadge": "off",  // Hide git change count badge
+        "problems.decorations.enabled": false,  // Hide problem decorations (no squiggles in file list)
         
         // Prettier (for HTML/CSS/JS)
         "prettier.singleQuote": true,
