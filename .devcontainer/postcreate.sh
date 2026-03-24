@@ -1,4 +1,5 @@
 #!/bin/bash
+git config --global pull.rebase false
 cp /home/vscode/.bashrc /workspaces/codespace/.bashrc 2>/dev/null || true
 cp /home/vscode/.gitconfig /workspaces/codespace/.gitconfig 2>/dev/null || true
 cp /workspaces/codespace/.devcontainer/.bash_profile /workspaces/codespace/.bash_profile
