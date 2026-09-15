@@ -11,6 +11,7 @@
       "extensions": [
         // --- Web Development ---
         "ritwickdey.LiveServer",          // Live preview for HTML/CSS/JS
+        "ms-vscode.live-server",          // Another live previewer
         "esbenp.prettier-vscode",         // Code formatter
         "dbaeumer.vscode-eslint",         // JS linter
 
